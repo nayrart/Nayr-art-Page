@@ -3,7 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NAYR ART - Centre Culturel</title>
+
+<title>NAYR ART | Centre Artistique à Marrakech</title>
+
+<meta name="description" content="NAYR ART est un centre artistique à Marrakech proposant des ateliers d'art plastique, musique, chant et poterie.">
 
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
 
@@ -21,7 +24,7 @@ body{
     color:#333;
 }
 
-/* NAVBAR */
+/* NAVIGATION */
 nav{
     display:flex;
     justify-content:space-between;
@@ -74,7 +77,7 @@ nav ul li a:hover{
 
 .hero p{
     font-size:20px;
-    max-width:700px;
+    max-width:800px;
 }
 
 /* SECTION */
@@ -85,7 +88,7 @@ section{
 section h2{
     text-align:center;
     font-size:40px;
-    margin-bottom:60px;
+    margin-bottom:50px;
     color:#7b2cbf;
 }
 
@@ -112,6 +115,17 @@ section h2{
     color:#7b2cbf;
 }
 
+/* CONTACT */
+.contact{
+    background:#fff;
+    text-align:center;
+}
+
+.contact p{
+    font-size:18px;
+    margin:10px 0;
+}
+
 /* FOOTER */
 footer{
     background:#111;
@@ -120,7 +134,6 @@ footer{
     padding:40px;
 }
 
-/* RESPONSIVE */
 @media(max-width:768px){
     nav{
         padding:20px;
@@ -150,66 +163,53 @@ footer{
     <img src="logo.png" alt="NAYR ART Logo">
     <ul>
         <li><a href="#">Accueil</a></li>
-        <li><a href="#">À propos</a></li>
-        <li><a href="#">Ateliers</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#ateliers">Ateliers</a></li>
+        <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
 
 <!-- HERO SECTION -->
 <div class="hero">
     <div>
-        <h1>L’art au cœur de Marrakech</h1>
-        <p>Un espace de détente dédié à la créativité, à la culture et à l’innovation artistique.</p>
+        <h1>NAYR ART</h1>
+        <p><strong>NAYR ART | CENTRE ARTISTIQUE</strong></p>
+        <p>Art plastique 🎨 • Musique 🎶 • Chant 🎤 • Poterie 🏺</p>
     </div>
 </div>
 
-<!-- À PROPOS -->
-<section>
-    <h2>Qui sommes-nous ?</h2>
-    <p style="max-width:900px;margin:auto;text-align:center;">
-        Le Centre NAYR ART est un espace artistique à Marrakech accueillant enfants,
-        adolescents et adultes. Nous proposons des ateliers créatifs variés ainsi que
-        des expositions d’artistes marocains afin de rendre l’art accessible à tous.
-    </p>
-</section>
-
 <!-- ATELIERS -->
-<section>
+<section id="ateliers">
     <h2>Nos Ateliers</h2>
     <div class="grid">
 
         <div class="card">
-            <h3>Dessin & Peinture</h3>
+            <h3>🎨 Art Plastique</h3>
             <p>Développer l’imagination et maîtriser les techniques artistiques.</p>
         </div>
 
         <div class="card">
-            <h3>Poterie</h3>
-            <p>Créer des objets uniques et exprimer sa créativité.</p>
-        </div>
-
-        <div class="card">
-            <h3>Création & Couture</h3>
-            <p>Apprendre la coupe, la couture et développer son autonomie.</p>
-        </div>
-
-        <div class="card">
-            <h3>Musique</h3>
+            <h3>🎶 Musique</h3>
             <p>Découvrir différentes expressions musicales et enrichir sa culture artistique.</p>
         </div>
 
         <div class="card">
-            <h3>Chant</h3>
-            <p>Développer sa voix, la confiance en soi et préparer des représentations.</p>
+            <h3>🎤 Chant</h3>
+            <p>Développer sa voix et la confiance en soi.</p>
         </div>
 
         <div class="card">
-            <h3>Théâtre</h3>
-            <p>Améliorer l’expression corporelle et renforcer la confiance.</p>
+            <h3>🏺 Poterie</h3>
+            <p>Créer des objets uniques et exprimer sa créativité.</p>
         </div>
 
     </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>📍 Av Abdelkrim El Khattabi, Résidence Jawad, 1er étage, Marrakech</p>
+    <p>📞 0674643280</p>
 </section>
 
 <!-- FOOTER -->
